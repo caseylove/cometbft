@@ -234,7 +234,7 @@ func (e ErrSaveGenesisDocHash) Unwrap() error {
 	return e.Err
 }
 
-// ErrReadingGenesisDoc is returned when the node fails to read the genesis doc file.
+// ErrorReadingGenesisDoc is returned when the node fails to read the genesis doc file.
 type ErrorReadingGenesisDoc struct {
 	Err error
 }

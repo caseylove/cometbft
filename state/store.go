@@ -673,7 +673,7 @@ func (store dbStore) LoadFinalizeBlockResponse(height int64) (*abci.FinalizeBloc
 	return resp, nil
 }
 
-// LoadLastFinalizeBlockResponses loads the FinalizeBlockResponses from the most recent height.
+// LoadLastFinalizeBlockResponse loads the FinalizeBlockResponses from the most recent height.
 // The height parameter is used to ensure that the response corresponds to the latest height.
 // If not, an error is returned.
 //
